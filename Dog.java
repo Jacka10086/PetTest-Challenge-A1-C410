@@ -1,15 +1,14 @@
 public class Dog extends Pet {
 
-    private String breed;
+    private String dogBreed;
 
     public Dog(String theName, int theAge, String theBreed) {
         super(theName, theAge);
-        this.breed = theBreed;
+        this.dogBreed = theBreed;
     }
 
     public String speak() {
-        return "Woof! I am " + this.getName() + ", a " + this.getAge() + " year old " + this.breed;
+        return "Woof! I am " + this.getName() + ", a " + this.getAge() + " year old " + this.dogBreed;
     }
 
 }
-
